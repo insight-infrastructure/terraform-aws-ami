@@ -29,7 +29,7 @@ data "aws_ami" "ubuntu_1804" {
   }
 }
 
-data "aws_ami" "ubuntu_1804" {
+data "aws_ami" "ubuntu_2004" {
   most_recent = true
   owners      = ["099720109477"] # Canonical
 
