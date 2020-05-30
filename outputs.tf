@@ -6,6 +6,10 @@ output "ubuntu_1804_ami_id" {
   value = data.aws_ami.ubuntu_1804.id
 }
 
+output "ubuntu_2004_ami_id" {
+  value = data.aws_ami.ubuntu_1804.id
+}
+
 output "centos_7_ami_id" {
   value = data.aws_ami.centos_7.id
 }

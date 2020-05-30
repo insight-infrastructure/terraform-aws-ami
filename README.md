@@ -42,6 +42,7 @@ No input.
 | ecs\_latest\_ami\_id | n/a |
 | ubuntu\_1604\_ami\_id | n/a |
 | ubuntu\_1804\_ami\_id | n/a |
+| ubuntu\_2004\_ami\_id | n/a |
 
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 

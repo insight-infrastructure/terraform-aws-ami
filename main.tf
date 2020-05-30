@@ -29,6 +29,21 @@ data "aws_ami" "ubuntu_1804" {
   }
 }
 
+data "aws_ami" "ubuntu_1804" {
+  most_recent = true
+  owners      = ["099720109477"] # Canonical
+
+  filter {
+    name   = "name"
+    values = ["ubuntu/images/hvm-ssd/ubuntu-bionic-20.04-amd64-server-*"]
+  }
+
+  filter {
+    name   = "virtualization-type"
+    values = ["hvm"]
+  }
+}
+
 data "aws_ami" "ecs_latest" {
   most_recent = true
   owners      = ["591542846629"] # AWS
